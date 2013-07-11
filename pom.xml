@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -11,7 +10,7 @@
     <groupId>org.webjars</groupId>
     <artifactId>font-mfizz</artifactId>
     <name>Font Mfizz</name>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
     <description>WebJar for Font Mfizz</description>
     <url>http://webjars.org</url>
@@ -28,7 +27,7 @@
         <url>https://github.com/webjars/font-mfizz.git</url>
         <connection>scm:git:https://github.com/webjars/font-mfizz.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/font-mfizz.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>font-mfizz-1.1</tag>
     </scm>
 
     <developers>
@@ -79,8 +78,7 @@
                         <configuration>
                             <target>
                                 <echo message="unzip archive" />
-                                <untar src="${project.build.directory}/font-mfizz-${upstream.version}.tar.gz"
-                                    dest="${project.build.directory}" compression="gzip" />
+                                <untar src="${project.build.directory}/font-mfizz-${upstream.version}.tar.gz" dest="${project.build.directory}" compression="gzip" />
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/font-mfizz-${upstream.version}" />
                                 </move>
