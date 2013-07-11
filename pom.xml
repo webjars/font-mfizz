@@ -10,7 +10,7 @@
 
     <groupId>org.webjars</groupId>
     <artifactId>font-mfizz</artifactId>
-    <name>Bootstrap</name>
+    <name>Font Mfizz</name>
     <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>WebJar for Font Mfizz</description>
@@ -25,9 +25,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/a1dutch/font-mfizz.git</url>
-        <connection>scm:git:https://github.com/a1dutch/font-mfizz.git</connection>
-        <developerConnection>scm:git:https://github.com/a1dutch/font-mfizz.git</developerConnection>
+        <url>https://github.com/webjars/font-mfizz.git</url>
+        <connection>scm:git:https://github.com/webjars/font-mfizz.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/font-mfizz.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -110,4 +110,5 @@
             <version>3.2.1</version>
         </dependency>
     </dependencies>
+
 </project>
