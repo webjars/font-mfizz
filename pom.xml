@@ -41,7 +41,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.url>https://bitbucket.org/jlauer/mfz-cdn/downloads/</upstream.url>
-        <upstream.version>1.1</upstream.version>
+        <upstream.version>1.2</upstream.version>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
     </properties>
 
