@@ -10,7 +10,7 @@
     <groupId>org.webjars</groupId>
     <artifactId>font-mfizz</artifactId>
     <name>Font Mfizz</name>
-    <version>1.2</version>
+    <version>1.3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>WebJar for Font Mfizz</description>
     <url>http://webjars.org</url>
@@ -27,7 +27,7 @@
         <url>https://github.com/webjars/font-mfizz.git</url>
         <connection>scm:git:https://github.com/webjars/font-mfizz.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/font-mfizz.git</developerConnection>
-        <tag>font-mfizz-1.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
